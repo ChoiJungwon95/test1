@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import com.jsp.dto.AttachVO;
 
 public interface AttachDAO {
-
+   
 	public List<AttachVO> selectAttachesByPno(SqlSession session, int pno)throws SQLException;
 	public AttachVO selectAttachByAno(SqlSession session,int ano)throws SQLException;
 	
